@@ -18,9 +18,9 @@ export const profile = {
   tagline: "Social Media Content & Video Editor",
   location: "CDO, Philippines",
   availability: "Available worldwide · Remote-ready",
-  email: "hello@minnethzinnia.com",
-  linkedin: "https://www.linkedin.com/",
-  onlinejobs: "https://www.onlinejobs.ph/",
+  email: "zinniaaquino@gmail.com",
+  linkedin: "https://www.linkedin.com/in/minneth-zinnia-aquino-dayaday-232911a1/",
+  onlinejobs: "https://www.onlinejobs.ph/jobseekers/info/883717",
 };
 
 export const professionalProfiles = [

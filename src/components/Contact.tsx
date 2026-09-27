@@ -56,15 +56,22 @@ export function Contact() {
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-4">
+            {/* Email Button - Opens Gmail in a new tab */}
             <a
-              href={`mailto:${profile.email}`}
+              href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 rounded-full bg-marigold px-7 py-4 text-sm font-black text-ink shadow-[4px_4px_0_0_rgba(245,239,226,0.25)] transition-transform hover:-translate-y-0.5"
             >
               <Mail className="h-5 w-5" />
               {profile.email}
             </a>
+            
+            {/* Book a Call Button - Opens Gmail in a new tab with subject */}
             <a
-              href={`mailto:${profile.email}?subject=Discovery%20Call%20Inquiry%20—%20Minneth%20Zinnia`}
+              href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}&su=Discovery%20Call%20Inquiry%20—%20Minneth%20Zinnia`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 rounded-full border-2 border-cream/30 px-7 py-4 text-sm font-bold text-cream transition-colors hover:border-marigold hover:bg-cream hover:text-ink"
             >
               <Calendar className="h-5 w-5 text-marigold group-hover:text-ink" />
@@ -141,8 +148,11 @@ export function Footer() {
           </p>
           <ul className="mt-4 space-y-2.5 text-sm font-bold text-ink/70">
             <li>
+              {/* Footer Email Link - Opens Gmail in a new tab */}
               <a
-                href={`mailto:${profile.email}`}
+                href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="transition-colors hover:text-marigold-deep"
               >
                 {profile.email}

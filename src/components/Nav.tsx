@@ -115,8 +115,8 @@ export default function Nav() {
               <Sparkle className="h-4 w-4 text-marigold-deep" />
               {profile.location} — available worldwide
             </div>
-            <a>
-            "Book Now!!"
+            <a href="#contact">
+              Book Now!!
             </a>
           </div>
         </div>

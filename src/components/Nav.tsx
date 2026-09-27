@@ -115,8 +115,8 @@ export default function Nav() {
               <Sparkle className="h-4 w-4 text-marigold-deep" />
               {profile.location} — available worldwide
             </div>
-            <a href="#contact">
-              Book Now!!
+            <a href="mailto:zinniaaquino@gmail.com" className="text-cream hover:text-marigold transition-colors">
+              Book now
             </a>
           </div>
         </div>

@@ -116,8 +116,7 @@ export default function Nav() {
               {profile.location} — available worldwide
             </div>
             <a
-              
-              Book Now!!
+            "Book Now!!"
             </a>
           </div>
         </div>

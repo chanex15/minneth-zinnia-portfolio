@@ -115,9 +115,14 @@ export default function Nav() {
               <Sparkle className="h-4 w-4 text-marigold-deep" />
               {profile.location} — available worldwide
             </div>
-            <a href="mailto:zinniaaquino@gmail.com" className="text-cream hover:text-marigold transition-colors">
-              Book now
-            </a>
+           <a 
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=zinniaaquino@gmail.com&su=Discovery%20Call%20Inquiry" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-3 rounded-full border-2 border-cream/30 px-7 py-4 text-sm font-bold text-cream transition-colors hover:border-marigold hover:bg-cream hover:text-ink"
+          >
+            Book a Discovery Call
+          </a>
           </div>
         </div>
       )}

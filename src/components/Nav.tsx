@@ -116,11 +116,8 @@ export default function Nav() {
               {profile.location} — available worldwide
             </div>
             <a
-              href="#contact"
-              onClick={() => setOpen(false)}
-              className="mt-6 flex items-center justify-center rounded-full bg-ink py-3.5 text-sm font-bold text-cream"
-            >
-              Book a Discovery Call
+              
+              Book Now!!
             </a>
           </div>
         </div>
